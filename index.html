@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            overflow: hidden;
+            margin : 0px;
+        }
+        #gameScreen{
+            border: 2px solid black;
+            margin: 20px 20px;
+        }
+        #ball,#brick{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <img id="ball" src ="assets/Swimming-Pool-Ball-PNG-File.png">
+    <img id="brick" src ="assets/brick.png">
+    <canvas id = "gameScreen"></canvas>
+    <script src="controler.js"></script>
+    <script src="ball.js"></script>
+    <script src="brick.js"></script>
+    <script src="paddle.js"></script>
+    <script src="gameHandler.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
